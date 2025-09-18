@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rap Argentino</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        .rapper-card {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            display: flex;
+            align-items: center;
+        }
+        .rapper-card img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-right: 20px;
+            object-fit: cover;
+        }
+        .rapper-card h2 {
+            margin: 0 0 10px;
+        }
+        .bio {
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Rap Argentino</h1>
+    </header>
+
+    <div class="container">
+        <div class="rapper-card">
+            <img src="https://via.placeholder.com/150" alt="Foto de C-Konflicto">
+            <div>
+                <h2>C-Konflicto</h2>
+                <p class="bio">
+                    C-Konflicto, uno de los referentes del rap de la Zona Norte de Buenos Aires, ha dejado una huella importante en la escena con su estilo crudo y letras que narran la realidad de su entorno. Su música se caracteriza por un flow directo y una fuerte conexión con el rap más clásico.
+                </p>
+            </div>
+        </div>
+
+        <div class="rapper-card">
+            <img src="https://via.placeholder.com/150" alt="Foto de Kamada">
+            <div>
+                <h2>Kamada</h2>
+                <p class="bio">
+                    Kamada es conocido por su habilidad en el freestyle y su participación en las batallas de rap. Con un estilo versátil, ha logrado destacarse tanto en el formato de rimas improvisadas como en la creación de canciones, mostrando un gran manejo del lenguaje y la métrica.
+                </p>
+            </div>
+        </div>
+
+        <div class="rapper-card">
+            <img src="https://via.placeholder.com/150" alt="Foto de Linternas Cru">
+            <div>
+                <h2>Linternas Cru</h2>
+                <p class="bio">
+                    Linternas Cru es un grupo que ha contribuido a la expansión del rap argentino con su sonido distintivo. Sus integrantes han explorado diferentes temáticas y ritmos, aportando una propuesta fresca y original que los ha posicionado como un colectivo clave en la evolución del género.
+                </p>
+            </div>
+        </div>
+
+        <div class="rapper-card">
+            <img src="https://via.placeholder.com/150" alt="Foto de T&K">
+            <div>
+                <h2>T&K</h2>
+                <p class="bio">
+                    T&K, también conocido como "El Kinto", es uno de los freestylers y raperos más influyentes de la última década. Su estilo único, lleno de referencias, juegos de palabras y un flow inconfundible, lo ha convertido en una figura de culto y en una inspiración para las nuevas generaciones.
+                </p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
